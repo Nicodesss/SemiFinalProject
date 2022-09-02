@@ -34,7 +34,6 @@ public class SemiFinalProject {
             }else{
                 System.out.println("YOUR CODE IS INVALID OR INCOMPLETE!");
                 int j = 1;
-
                 for (int i = 0; i <= 6; i++) {
                     System.out.println(j + "\t" + STACK.get(i));
                     j++;
@@ -45,6 +44,10 @@ public class SemiFinalProject {
                 }
             }
         }
+    }
+    public boolean isMatched(String matched){
+
+        return false;
     }
 }
 //<!DOCTYPE html>
